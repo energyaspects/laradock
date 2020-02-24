@@ -1,6 +1,4 @@
-<p align="center">
-    <img src="/.github/home-page-images/laradock-logo.jpg?raw=true" alt="Laradock Logo"/>
-</p>
+EA Fork of Laradock (to track our own changes)
 
 ---
 
