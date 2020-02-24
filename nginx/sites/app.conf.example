@@ -10,7 +10,7 @@ server {
     # ssl_certificate_key /etc/nginx/ssl/default.key;
 
     server_name app.test;
-    root /var/www/app;
+    root /var/www/public;
     index index.php index.html index.htm;
 
     location / {
