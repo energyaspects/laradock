@@ -1,0 +1,16 @@
+{
+  "name": "ea/laradock",
+  "type": "n",
+  "authors": [
+    {
+      "name": "Marco Carcangiu",
+      "email": "marco.carcangiu@energyaspects.com"
+    }
+  ],
+  "require": {},
+  "scripts": {
+    "start": "docker-compose up -d nginx workspace mysql",
+    "stop": "docker-compose stop",
+    "ssh": "docker-compose exec workspace bash < /dev/tty"
+  }
+}

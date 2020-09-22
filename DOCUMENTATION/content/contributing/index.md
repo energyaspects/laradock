@@ -96,7 +96,7 @@ To update the sidebar or add a new section to it, you can edit this `DOCUMENTATI
 
 ## Edit Base Image
 
-* Open any dockerfile, copy the base image name (example: `FROM phusion/baseimage:latest`).
+* Open any dockerfile, copy the base image name (example: `FROM phusion/baseimage:master-amd64`).
 
 * Search for the image in the [Docker Hub](https://hub.docker.com/search/) and find the source..
 
